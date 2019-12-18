@@ -3,7 +3,7 @@ html {
     height: 100%;
 }
 
-.bg {
+#first {
     background-image: url("../image/animation.jpg");
     height: 100%;
     background-position: center;
@@ -13,16 +13,23 @@ html {
     right: 0;
     top: 0;
     bottom: 0;
+    
+
+}
+#start:hover{
+  padding-right: 5%;
+}
+.bg {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     flex-wrap: wrap;
     padding-top: 5%;
     padding-bottom: 5%;
-
 }
+
 .bg h1{
-    margin-top:10%;
+  margin-top: 10%;
 }
 
 .btn {
@@ -86,4 +93,33 @@ header,
 h6 {
   line-height: 1.7;
 
+}
+
+#second{
+  display: none;
+  margin: 0;
+  margin-top: -4%;
+  padding: 5%;
+  background-image: url("https://i.pinimg.com/564x/c0/bb/6f/c0bb6fd2139e0e403081fe73ece01021.jpg");
+  background-size: cover;
+}
+
+#sign-statement{
+  background: #59c3c3;
+  height: 5%;
+  border-radius: 20px;
+}
+
+#signs{
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2%;
+  border-radius: 20px;
+}
+
+#footer{
+
+}
+
+#copyright{
+  
 }
