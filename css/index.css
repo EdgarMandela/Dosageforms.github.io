@@ -73,12 +73,12 @@ header,
     background: #3f51b5 !important;
   }
 }
-.rgba-gradient {
+/* .rgba-gradient {
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
   background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-}
+} */
 .card {
-  background-color: rgba(126, 123, 215, 0.2);
+  background-color:#59c3c3;
 }
 .md-form label {
   color: #ffffff;
