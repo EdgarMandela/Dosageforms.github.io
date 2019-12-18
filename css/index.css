@@ -5,20 +5,18 @@ html {
 }
 
 #first {
-  background-image: url("../image/animation.jpg");
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-
+    background-image: url("../image/animation.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
 
 }
-
-#start:hover {
+#start:hover{
   padding-right: 5%;
 }
 
