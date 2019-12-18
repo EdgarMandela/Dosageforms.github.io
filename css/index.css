@@ -1,3 +1,45 @@
+body,
+html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("../image/animation.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.bg h1{
+    margin-top:10%;
+}
+
+.btn {
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 35%;
+    border:2px solid white;
+    color:white;
+}
+.social-icons{
+    padding:20px;
+}
+
+
+
+
+
 html,
 body,
 header,
