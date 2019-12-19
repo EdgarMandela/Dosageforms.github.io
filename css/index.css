@@ -1,6 +1,7 @@
 body,
 html {
     height: 100%;
+    color:black;
 }
 
 #first {
@@ -43,16 +44,6 @@ html {
     padding:20px;
 }
 
-
-
-
-
-html,
-body,
-header,
-.view {
-  height: 100%;
-}
 @media (max-width: 740px) {
   html,
   body,
@@ -117,10 +108,10 @@ h6 {
 }
 
 #footer{
-margin-bottom:2px;
+  margin-bottom:2px;
 
 }
 
-#copyright{
-
+#main-page{
+  display:none;
 }
