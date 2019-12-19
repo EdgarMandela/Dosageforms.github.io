@@ -9,7 +9,9 @@ $(document).ready(function(){
         var email = $("#form2").val();
         var password=$("#form4").val();
         if(name != "" && email != "" && password != ""){
-            $("#main-page").show();
+            $(".navbar").show();
+            $("#buong").show();
+            $("#second").hide();
         }
         else{
             alert("You need to enter all your details to proceed");

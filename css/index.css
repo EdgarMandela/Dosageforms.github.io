@@ -136,3 +136,8 @@ h6 {
 .two, .one{
   color:#fff;
 }
+
+.navbar, #buong{
+  background-color: #59c3c3;
+  display: none;
+}
