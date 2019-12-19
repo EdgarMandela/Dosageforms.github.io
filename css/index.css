@@ -1,9 +1,49 @@
-html,
 body,
-header,
-.view {
-  height: 100%;
+html {
+    height: 100%;
+    color:black;
 }
+
+#first {
+    background-image: url("../image/animation.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    
+
+}
+#start:hover{
+  padding-right: 5%;
+}
+.bg {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.bg h1{
+  margin-top: 10%;
+}
+
+.btn {
+    margin-top: 3%;
+    width: 30%;
+    margin-left: 35%;
+    border:2px solid white;
+    color:white;
+}
+.social-icons{
+    padding:20px;
+}
+
 @media (max-width: 740px) {
   html,
   body,
@@ -31,12 +71,12 @@ header,
     background: #3f51b5 !important;
   }
 }
-.rgba-gradient {
+/* .rgba-gradient {
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
   background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
-}
+} */
 .card {
-  background-color: rgba(126, 123, 215, 0.2);
+  background-color:#59c3c3;
 }
 .md-form label {
   color: #ffffff;
@@ -44,4 +84,34 @@ header,
 h6 {
   line-height: 1.7;
 
+}
+
+#second{
+  display: none;
+  margin: 0;
+  margin-top: -4%;
+  padding: 5%;
+  background-image: url("https://i.pinimg.com/564x/c0/bb/6f/c0bb6fd2139e0e403081fe73ece01021.jpg");
+  background-size: cover;
+}
+
+#sign-statement{
+  background: #59c3c3;
+  height: 5%;
+  border-radius: 20px;
+}
+
+#signs{
+  background: rgba(0, 0, 0, 0.2);
+  padding: 2%;
+  border-radius: 20px;
+}
+
+#footer{
+  margin-bottom:2px;
+
+}
+
+#main-page{
+  display:none;
 }
