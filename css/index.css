@@ -207,3 +207,21 @@ h6 {
   background-size: cover;
   padding: 3%;
 }
+
+#showName p, #showPills p, #showDays p, #showTimes p{
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+#go-to-main{
+  width: 40%;
+  padding: 1%;
+}
+
+#start-btn, #reset{
+  margin-left: -2%;
+}
+
+#reset{
+  padding-bottom: 1%;
+}

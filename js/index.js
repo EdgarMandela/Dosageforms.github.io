@@ -25,6 +25,8 @@ $(document).ready(function(){
         var pills = $("#pills").val();
         var time = $("#times").val();
         $(".timer").show();
+        $("#buong").hide();
+        $(".navbar").hide();
 
         $("#showName").text(name);
         $("#showDays").text(days);
