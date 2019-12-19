@@ -196,6 +196,10 @@ h6 {
   margin-top: 30px;
 }
 
+#rivescript{
+  display: none;
+}
+
 .bg-info {
   border-radius: 5px;
   outline: none;

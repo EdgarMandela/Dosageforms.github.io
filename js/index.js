@@ -33,5 +33,10 @@ $(document).ready(function(){
         $("#showPills").text(pills);
         $("#showTimes").text(time);
     })
+
+    $("#showRive").click(function(){
+        $("#rivescript").show();
+        
+    })
 });
 
