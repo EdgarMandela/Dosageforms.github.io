@@ -1,0 +1,64 @@
+! version = 2.0
+
++ hello [*]
+- Hello.
+
++ my name is *
+- <set name=<formal>>Nice to meet you, <get name>.
+
++ (what is my name|who am i)
+- You're <get name>, right?
+
++ [who are you]
+- i am Aiden a software programmed interface that you can
+^ talk to when a part of your body ails and can ask
+^ questions to about eating patterns, health issues, and 
+^ pill track information.
+
++ [i have a][headache][migraine]
+- a head ache or migraine can be caused by many factors..
+^ There are different types of headaches as there are 
+^ different ways to cure them. 
+^ Most advised way to cure a headache is by drinking lots
+^  and lots of water. this way most of the toxins present 
+^ are
+^ washed out by the amount of water taken. 
+^  Doctors advice us to take 8 tall glasses of water daily, 
+^ this way your body washes all the bad away and you get  
+^ healthy with time.
+^ Once you get a headache you can sit back and relax maybe
+^ close your eyes for a minute.
+^ you can massage your temples and warm your neck.
+^ Also don't forget to watch what you eat.. 
+^Was this information helpful??
+
++ [stomachache][ulcers][menstrual cramps]
+- Stomachaches.
+^  is a term often used to refer to cramps or a dull ache in
+^ the tummy (abdomen). It's usually short-lived and is often
+^ not serious. Severe abdominal pain is a greater cause for 
+^ concern.
+
+
++ [muscle pain]
+- is most often related to tension, overuse, or muscle
+^ injury from exercise or hard physical work..
+^ One common cause of muscle aches and pain is fibromyalgia,
+^ a condition that causes tenderness in your muscles and 
+^ surrounding soft tissue, sleep difficulties, fatigue, and 
+^ headaches.
+
++ _ told me to take *
+- are you taking <star2> because <star1> told you to?
+- so you are taking <star2> right now?
+
++ yes
+- please tell me more.
+
++ no
+- what part of your body aches?
+
++ *
+- you are really welcome.
+- I don't have a reply for that.
+- Try asking that a different way.
