@@ -36,7 +36,9 @@ $(document).ready(function(){
 
     $("#showRive").click(function(){
         $("#rivescript").show();
-        
+
     })
+
+    
 });
 

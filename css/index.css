@@ -200,6 +200,10 @@ h6 {
   display: none;
 }
 
+.headhome{
+  background-color: #59c3c3;
+}
+
 .bg-info {
   border-radius: 5px;
   outline: none;

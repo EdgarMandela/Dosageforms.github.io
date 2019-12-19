@@ -114,7 +114,7 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
                 class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
 
-            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <div id="navbarSupportedContent" class="collapse navbar-collapse headhome">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active"><a href="#" class="nav-link">Home <span
                                 class="sr-only">(current)</span></a></li>
@@ -161,6 +161,7 @@
 
     <div class="timer">
         <div class="container timer-container">
+            <p class="back" style="color: white;"><a href="#second">Return to main page</a></p>
             <h1 class="text-center">Health Timer</h1>
             <hr>
             <div id="pomodoro" class="text-center">
@@ -190,7 +191,15 @@
         <p id="showTimes"></p>
     </div>
     <div id="rivescript">
-
+        <div class="chat">
+            <div class="messages"></div>
+            <div id="edge"></div>
+            <form class="actions">
+                <input type="text" placeholder="press 'Enter' to send...">
+            </form>
+        </div>
+        <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+        <script src="index.js"></script>
 
     </div>
     <script src="js/scripts.js">
