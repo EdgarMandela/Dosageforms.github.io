@@ -18,5 +18,18 @@ $(document).ready(function(){
             return false;
         }
     })
+
+    $("#go-to-main").click(function(){
+        var name = $("#name").val();
+        var days = $("#days").val();
+        var pills = $("#pills").val();
+        var time = $("#times").val();
+        $(".timer").show();
+
+        $("#showName").text(name);
+        $("#showDays").text(days);
+        $("#showPills").text(pills);
+        $("#showTimes").text(time);
+    })
 });
 

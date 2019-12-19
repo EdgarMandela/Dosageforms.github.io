@@ -1,49 +1,53 @@
 body,
 html {
-    height: 100%;
-    color:black;
+  height: 100%;
+  color: black;
 }
 
 #first {
-    background-image: url("../image/animation.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    
+  background-image: url("../image/animation.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
 
 }
-#start:hover{
+
+#start:hover {
   padding-right: 5%;
 }
+
 .bg {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    flex-wrap: wrap;
-    padding-top: 5%;
-    padding-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
-.bg h1{
+.bg h1 {
   margin-top: 10%;
 }
 
 .btn {
-    margin-top: 3%;
-    width: 30%;
-    margin-left: 35%;
-    border:2px solid white;
-    color:white;
+  margin-top: 3%;
+  width: 30%;
+  margin-left: 35%;
+  border: 2px solid white;
+  color: white;
 }
-.social-icons{
-    padding:20px;
+
+.social-icons {
+  padding: 20px;
 }
 
 @media (max-width: 740px) {
+
   html,
   body,
   header,
@@ -51,7 +55,9 @@ html {
     height: 1000px;
   }
 }
+
 @media (min-width: 800px) and (max-width: 850px) {
+
   html,
   body,
   header,
@@ -59,33 +65,39 @@ html {
     height: 650px;
   }
 }
+
 .top-nav-collapse {
   background-color: #3f51b5 !important;
 }
+
 .navbar:not(.top-nav-collapse) {
   background: transparent !important;
 }
+
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #3f51b5 !important;
   }
 }
+
 /* .rgba-gradient {
   background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
   background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
 } */
 .card {
-  background-color:#59c3c3;
+  background-color: #59c3c3;
 }
+
 .md-form label {
   color: #ffffff;
 }
+
 h6 {
   line-height: 1.7;
 
 }
 
-#second{
+#second {
   display: none;
   margin: 0;
   margin-top: -4%;
@@ -94,50 +106,104 @@ h6 {
   background-size: cover;
 }
 
-#sign-statement{
+#sign-statement {
   background: #59c3c3;
   height: 5%;
   border-radius: 20px;
 }
 
-#signs{
+#signs {
   background: rgba(0, 0, 0, 0.2);
   padding: 2%;
   border-radius: 20px;
 }
 
-#footer{
-  margin-bottom:2px;
+#footer {
+  margin-bottom: 2px;
 
 }
 
-#main-page{
-  display:none;
+#main-page {
+  display: none;
 }
 
-#dosage{
-  background-color:#59c3c3;
-  font-size:14px;
-  color:#fff;
-}
-.simple-login-container{
-  width:300px;
-  max-width:100%;
-  margin:50px auto;
-}
-.simple-login-container h2{
-  text-align:center;
-  font-size:20px;
-}
-.simple-login-container .btn-login{
-  background-color:#FF5964;
-  color:#fff;
-}
-.two, .one{
-  color:#fff;
+#dosage {
+  background-color: #59c3c3;
+  font-size: 14px;
+  color: #fff;
 }
 
-.navbar, #buong{
+.simple-login-container {
+  width: 300px;
+  max-width: 100%;
+  margin: 50px auto;
+}
+
+.simple-login-container h2 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.simple-login-container .btn-login {
+  background-color: #FF5964;
+  color: #fff;
+}
+
+.two,
+.one {
+  color: #fff;
+}
+
+.navbar,
+#buong {
   background-color: #59c3c3;
   display: none;
+}
+
+.timer {
+  display: none;
+}
+
+.timerDisplay {
+  width: 200px;
+  height: 200px;
+  border: 3px solid white;
+  border-radius: 50%;
+  padding: 3%;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 41%;
+  margin-bottom: 1%;
+}
+
+.timer-container {
+  background: #189ad3;
+  border-radius: 30px;
+  color: white;
+  margin-top: 5%;
+}
+
+.settings {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3%;
+}
+
+.btn-danger {
+  height: 40px;
+  margin-top: 30px;
+}
+
+.bg-info {
+  border-radius: 5px;
+  outline: none;
+}
+
+.timer {
+  background-image: url("/home/moringa/Desktop/Dosage/Dosageforms/index.html");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3%;
 }

@@ -130,32 +130,66 @@
             <h2>Input Form</h2>
             <div class="row">
                 <div class="col-md-12 form-group">
-                    <input type="text" class="form-control" placeholder="Name of medicine">
+                    <input type="text" id="name" class="form-control" placeholder="Name of medicine">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 form-group">
-                    <input type="No. of days" placeholder="No. of days" class="form-control" min="1" max=10>
+                    <input type="No. of days" id="days" placeholder="No. of days" class="form-control" min="1" max=10>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 form-group">
-                    <input type="Amount of pills" class="form-control" placeholder="Amount of pills">
+                    <input type="Amount of pills" id="pills" class="form-control" placeholder="Amount of pills">
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 form-group">
-                    <input type="How many times you should take pills" class="form-control"
-                        placeholder="How many times you should take pills">
+                    <input type="How many times you should take pills" class="form-control" id="times"
+                        placeholder="No. of times you should take pills">
                 </div>
                 <div class="col-md-12 form-group">
-                    <input type="submit" class="btn btn-block btn-login" placeholder="Enter your Password">
+                    <button type="submit" id="go-to-main" class="btn btn-block btn-login"
+                        placeholder="Enter your Password">SET ALARM</button>
                 </div>
             </div>
 
 
         </div>
     </div>
+
+    <div class="timer">
+        <div class="container timer-container">
+            <h1 class="text-center">Health Timer</h1>
+            <hr>
+            <div id="pomodoro" class="text-center">
+                <div id="status"></div>
+                <div class="timerDisplay text-center">25:00</div>
+                <button id="start-btn" class="btn btn-success">START</button>
+            </div>
+            <div class="settings">
+                <div id="work" class="text-center">
+                    <p>Waiting Duration</p>
+                    <button class="btn-settings plus bg-info" id="work-plus">+</button>
+                    <div><span id="work-min">25</span> mins</div>
+                    <button class="btn-settings minus bg-info" id="work-minus">-</button>
+                </div>
+                <button id="reset" class="btn btn-danger">RESET</button>
+                <div id="break" class="text-center">
+                    <p>Break Duration</p>
+                    <button class="btn-settings plus bg-info" id="break-plus">+</button>
+                    <div><span id="break-min">5</span> mins</div>
+                    <button class="btn-settings minus bg-info" id="break-minus">-</button>
+                </div>
+            </div>
+        </div>
+        <p id="showName"></p>
+        <p id="showDays"></p id>
+        <p id="showPills"></p>
+        <p id="showTimes"></p>
+    </div>
+    <script src="js/scripts.js">
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
